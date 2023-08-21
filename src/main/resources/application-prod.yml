@@ -1,0 +1,12 @@
+#项目名称
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://101.43.255.151:3306/user_center
+    username: root
+    password: 123456
+#session失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
